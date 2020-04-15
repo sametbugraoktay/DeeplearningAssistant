@@ -1,0 +1,33 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Merhaba", "nasılsın?", "Selam", "Hello", "Naber?", "Nasıl gidiyor?"],
+     "responses": ["Merhaba!", "İyiyim,teşekkür ederim.", "Merhaba,nasıl yardımcı olabilirim?"],
+     "context_set": ""
+    },
+    {"tag": "goodbye",
+     "patterns": ["by by", "Sonra görüşürüz", "Görüşürüz", "Hoşçakal", "İyi günler"],
+     "responses": ["Görüşürüz,iyi günler", "Sonra konuşuruz", "Görüşürüz!"],
+     "context_set": ""
+    },
+    {"tag": "age",
+     "patterns": ["Kaç yaşındasın?", "Sen kaç yaşındasın?", "Yaşın kaç?", "how old are you", "age?"],
+     "responses": ["Ben 18 yaşındayım", "18 yaşındayım"],
+     "context_set": ""
+    },
+    {"tag": "name",
+     "patterns": ["what is your name", "Adın nedir?", "ismin nedir?"],
+     "responses": ["Bana Asistan diyebilirsin", "Ben Asistan!", "Benim adım Asistan"],
+     "context_set": ""
+    },
+    {"tag": "shop",
+     "patterns": ["Neler yapıyorsun?", "Menüde ne var?", "Ne önerirsin?", "Ne yemeliyim?"],
+     "responses": ["Çikolatalı kurabiye yapıyorum,sen de istermisin?", "Menüde sadece çikolatalı kurabiye var"],
+     "context_set": ""
+    },
+    {"tag": "time",
+     "patterns": ["Saat kaç?", "saat", "hour"],
+     "responses": ["Şu anda saat 20.00"],
+     "context_set": ""
+           }
+]
+}
